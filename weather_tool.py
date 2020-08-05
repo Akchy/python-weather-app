@@ -10,6 +10,10 @@ data = res.json()
 
 print("hello")
 
+#commenting this line
+
+pprint(data) #This is to print the dictionary in a pretty way to understand it better
+
 temp_c = data['main']['temp']
 temp_f = temp_c*1.8+32
 weather = data['weather'][0]['main']
