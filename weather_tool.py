@@ -8,6 +8,8 @@ url = "https://api.openweathermap.org/data/2.5/weather?q={}&appid=***Enter your 
 res = requests.get(url)
 data = res.json()
 
+#commenting this line
+
 pprint(data) #This is to print the dictionary in a pretty way to understand it better
 
 temp_c = data['main']['temp']
