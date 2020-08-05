@@ -8,7 +8,7 @@ url = "https://api.openweathermap.org/data/2.5/weather?q={}&appid=***Enter your 
 res = requests.get(url)
 data = res.json()
 
-pprint(data) #This is to print the dictionary in a pretty way to understand it better
+print("hello")
 
 temp_c = data['main']['temp']
 temp_f = temp_c*1.8+32
